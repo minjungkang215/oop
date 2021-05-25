@@ -1,0 +1,10 @@
+//==============================================
+// Name:		Minjung Kang
+// Student ID: 	151293198
+// Email:          	mkang41@myseneca.ca
+// Date:           	Dec 4 2020
+//==============================================
+
+During milestone 1 to 4 and final project, I created a program that registers and admits patients and calculate wait time in the hospital. A lot of workshops and milestones were challenging but the final project was even more difficult because there was less instruction. 
+At first I wrote bool terminate variable for reg(), admit() and run(). But I deleted it in reg() and admit() because run() function repeats itself while selection is not 0, but the other functions didn't. Also It was difficult to figure out current time in setAverageWaitTime function, which I resolved by creating time object and call reset function. I had a hard time dealing with Patient pointers and Patient references but the answer was pretty easy which is to write *(target of) in front of pointers. There were several instructions that I had to figure out on my own, such as 'If Instantiation happened' in load() function, which I'm not sure if I did it in a correct way. Also I had a bug creating one more TriagePatient reading from and writing in data file, so in load() function, I changed the position of !fin.fail() from being as second condition in for loop to being after checking the character. Also in matrix I had memory leak. 
+While taking OOP244 this semester, I learned object oriented programming in C++ from basic. I learned about dynamic memory allocation, constructor and destructor, operator overloading, virtual functions and function templates. Our professor explains difficult concept in the easiest way which is very helpful for students to understand. It would be great if students can get feedback for the workshops and milestones submitted, because there would be lots of other ways and better ways of writing code for the same program. 
